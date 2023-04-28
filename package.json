@@ -46,6 +46,6 @@
     "vite-tsconfig-paths": "4.2.0"
   },
   "dependencies": {
-    "qwik-image": "^0.0.2"
+    "qwik-image": "^0.0.3"
   }
 }
