@@ -6,6 +6,12 @@
 @tailwind components;
 @tailwind utilities;
 
+
+* {
+  font-family: 'Jost', sans-serif;
+  transition-duration: 300ms;
+}
+
 /**
  * WHAT IS THIS FILE?
  *
