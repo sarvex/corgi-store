@@ -2,8 +2,8 @@ lockfileVersion: '6.0'
 
 dependencies:
   qwik-image:
-    specifier: ^0.0.3
-    version: 0.0.3
+    specifier: ^0.0.4
+    version: 0.0.4
 
 devDependencies:
   '@builder.io/partytown':
@@ -7346,8 +7346,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /qwik-image@0.0.3:
-    resolution: {integrity: sha512-pxcS6TMYOQ/p/v520XUJcGH6VwTGx6ejIyoP+oL2X4drVbx77rzutfhvTZ2UUmZITlisaVdCAmPlUTwKsldOaQ==}
+  /qwik-image@0.0.4:
+    resolution: {integrity: sha512-RzIQNWIAOh64tFlJ3oF+FOwN93hoizH+SMcRctMY/BP998nhNQg7xe7rL0qtrFQ7pZOAuUQt7iI3Fnm6e7I1zA==}
     dev: false
 
   /range-parser@1.2.1:
