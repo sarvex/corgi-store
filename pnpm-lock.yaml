@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   qwik-image:
-    specifier: 0.0.6
-    version: 0.0.6
+    specifier: 0.0.7
+    version: 0.0.7
 
 devDependencies:
   '@builder.io/partytown':
@@ -7195,8 +7195,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /qwik-image@0.0.6:
-    resolution: {integrity: sha512-fKZH9JxYQeynEGAd5reoR90uVEy7yc3qMbcMkmGwkZBcEAl8+av0LQl8uq2ZW7rQ/Sgs5fJgl50FqqfVFltRLQ==}
+  /qwik-image@0.0.7:
+    resolution: {integrity: sha512-JodIaKlasCuaGe7hM30LVdD4GMVJ4Lp8W9cakU1PAkPe9teC3APOLta3qmVMbAtV0gXmeLq4y/EDwl/44rRX2g==}
     dev: false
 
   /range-parser@1.2.1:
