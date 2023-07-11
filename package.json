@@ -41,7 +41,7 @@
     "typescript": "5.1.6",
     "undici": "5.22.1",
     "unplugin-fonts": "1.0.3",
-    "vercel": "31.0.1",
+    "vercel": "31.0.2",
     "vite": "4.4.2",
     "vite-tsconfig-paths": "4.2.0"
   },
