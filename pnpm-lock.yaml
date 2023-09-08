@@ -15,7 +15,7 @@ devDependencies:
     version: 0.8.1
   '@builder.io/qwik':
     specifier: 1.2.10
-    version: 1.2.10(undici@5.23.0)
+    version: 1.2.10(undici@5.24.0)
   '@builder.io/qwik-city':
     specifier: 1.2.10
     version: 1.2.10
@@ -59,8 +59,8 @@ devDependencies:
     specifier: 5.2.2
     version: 5.2.2
   undici:
-    specifier: 5.23.0
-    version: 5.23.0
+    specifier: 5.24.0
+    version: 5.24.0
   unplugin-fonts:
     specifier: 1.0.3
     version: 1.0.3(vite@4.4.9)
@@ -114,7 +114,7 @@ packages:
       - supports-color
     dev: true
 
-  /@builder.io/qwik@1.2.10(undici@5.23.0):
+  /@builder.io/qwik@1.2.10(undici@5.24.0):
     resolution: {integrity: sha512-UJDqEx3p32cmafT9zPk9G623wy0HeMp+T6IE12HKOZtC28T4VC4lwbzkxowPIPd+GuwTSXfWSQzwwgbnOBiPgg==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     hasBin: true
@@ -122,7 +122,7 @@ packages:
       undici: ^5.14.0
     dependencies:
       csstype: 3.1.2
-      undici: 5.23.0
+      undici: 5.24.0
     dev: true
 
   /@cspotcode/source-map-support@0.8.1:
@@ -4877,6 +4877,13 @@ packages:
 
   /undici@5.23.0:
     resolution: {integrity: sha512-1D7w+fvRsqlQ9GscLBwcAJinqcZGHUKjbOmXdlE/v8BvEGXjeWAax+341q44EuTcHXXnfyKNbKRq4Lg7OzhMmg==}
+    engines: {node: '>=14.0'}
+    dependencies:
+      busboy: 1.6.0
+    dev: true
+
+  /undici@5.24.0:
+    resolution: {integrity: sha512-OKlckxBjFl0oXxcj9FU6oB8fDAaiRUq+D8jrFWGmOfI/gIyjk/IeS75LMzgYKUaeHzLUcYvf9bbJGSrUwTfwwQ==}
     engines: {node: '>=14.0'}
     dependencies:
       busboy: 1.6.0
