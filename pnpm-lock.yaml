@@ -65,8 +65,8 @@ devDependencies:
     specifier: 1.0.3
     version: 1.0.3(vite@4.5.0)
   vercel:
-    specifier: 32.5.2
-    version: 32.5.2
+    specifier: 32.5.3
+    version: 32.5.3
   vite:
     specifier: 4.5.0
     version: 4.5.0(@types/node@20.9.0)
@@ -1274,8 +1274,8 @@ packages:
       ts-morph: 12.0.0
     dev: true
 
-  /@vercel/next@4.0.13:
-    resolution: {integrity: sha512-zTeowu/yZjenGPAfLvLikrq4+rEynMu2MQ/HzxFb4HoQgjRQmSPJ3zQWVRp1CPm2VQe23AvhORIupxMXKr8SNw==}
+  /@vercel/next@4.0.14:
+    resolution: {integrity: sha512-29x93X278ElpbftrSgHvdY9OGVZkHurm3ST/WbdyE/AASEuqwOvShkpAoQl8idlFJFHPjd4c2v5xv1ZVyEb6sg==}
     dependencies:
       '@vercel/nft': 0.24.2
     transitivePeerDependencies:
@@ -1304,8 +1304,8 @@ packages:
       - supports-color
     dev: true
 
-  /@vercel/node@3.0.8:
-    resolution: {integrity: sha512-giEPiPgynLNOLsU2qvpoeHJi2YVi3lwJUkxlyByxNL8683BgGF9+c4ResXRzesHCVrl2WzAKL8iAh59htKNyzg==}
+  /@vercel/node@3.0.9:
+    resolution: {integrity: sha512-vDkxXdO6aZQWrvYOZpUtz7WTcpdUn2cgjmqdEztjK3tnXAp988FcCNTivGG/uDUmsQPIQ/XQvUjkBRLlIWTSeA==}
     dependencies:
       '@edge-runtime/node-utils': 2.2.1
       '@edge-runtime/primitives': 4.0.5
@@ -1325,7 +1325,7 @@ packages:
       ts-morph: 12.0.0
       ts-node: 10.9.1(@types/node@14.18.33)(typescript@4.9.5)
       typescript: 4.9.5
-      undici: 5.23.0
+      undici: 5.26.5
     transitivePeerDependencies:
       - '@swc/core'
       - '@swc/wasm'
@@ -1651,13 +1651,6 @@ packages:
     dependencies:
       base64-js: 1.5.1
       ieee754: 1.2.1
-    dev: true
-
-  /busboy@1.6.0:
-    resolution: {integrity: sha512-8SFQbg/0hQ9xy3UNTB0YEnsNBbWfhf7RtnzpL7TkBiTBRfrQ9Fxcnz7VJsleJpyp6rVLvXiuORqjlHi5q+PYuA==}
-    engines: {node: '>=10.16.0'}
-    dependencies:
-      streamsearch: 1.1.0
     dev: true
 
   /bytes@3.1.0:
@@ -4951,11 +4944,6 @@ packages:
       stream-to-array: 2.3.0
     dev: true
 
-  /streamsearch@1.1.0:
-    resolution: {integrity: sha512-Mcc5wHehp9aXz1ax6bZUyY5afg9u2rv5cqQI3mRrYkGC8rW2hM02jWuwjtL++LS5qinSyhj2QfLyNsuc+VsExg==}
-    engines: {node: '>=10.0.0'}
-    dev: true
-
   /streamx@2.15.1:
     resolution: {integrity: sha512-fQMzy2O/Q47rgwErk/eGeLu/roaFWV0jVsogDmrszM9uIw8L5OA+t+V93MgYlufNptfjmYR1tOMWhei/Eh7TQA==}
     dependencies:
@@ -5345,11 +5333,11 @@ packages:
     resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
     dev: true
 
-  /undici@5.23.0:
-    resolution: {integrity: sha512-1D7w+fvRsqlQ9GscLBwcAJinqcZGHUKjbOmXdlE/v8BvEGXjeWAax+341q44EuTcHXXnfyKNbKRq4Lg7OzhMmg==}
+  /undici@5.26.5:
+    resolution: {integrity: sha512-cSb4bPFd5qgR7qr2jYAi0hlX9n5YKK2ONKkLFkxl+v/9BvC0sOpZjBHDBSXc5lWAf5ty9oZdRXytBIHzgUcerw==}
     engines: {node: '>=14.0'}
     dependencies:
-      busboy: 1.6.0
+      '@fastify/busboy': 2.0.0
     dev: true
 
   /undici@5.27.2:
@@ -5518,8 +5506,8 @@ packages:
     resolution: {integrity: sha512-wa7YjyUGfNZngI/vtK0UHAN+lgDCxBPCylVXGp0zu59Fz5aiGtNXaq3DhIov063MorB+VfufLh3JlF2KdTK3xg==}
     dev: true
 
-  /vercel@32.5.2:
-    resolution: {integrity: sha512-OTsG7cDphtebJ+S/3NelS9p0LHpzDW0Otv+JZ1ptibjhkzJaYURK9tP58oUL+z5feU796LDJpJoIHFgG+37o7A==}
+  /vercel@32.5.3:
+    resolution: {integrity: sha512-fK5n0qSmckJlzPgZ7yD3Q1+L13o2FeN9hsZbJcr/kIglA0zRj7OoSEK30LWlxJ44T/Uw0MOgVpK8vkAl+Aqpdw==}
     engines: {node: '>= 16'}
     hasBin: true
     dependencies:
@@ -5527,8 +5515,8 @@ packages:
       '@vercel/fun': 1.1.0
       '@vercel/go': 3.0.3
       '@vercel/hydrogen': 1.0.1
-      '@vercel/next': 4.0.13
-      '@vercel/node': 3.0.8
+      '@vercel/next': 4.0.14
+      '@vercel/node': 3.0.9
       '@vercel/python': 4.1.0
       '@vercel/redwood': 2.0.5
       '@vercel/remix-builder': 2.0.11
