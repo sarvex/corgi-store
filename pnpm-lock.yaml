@@ -3342,7 +3342,7 @@ packages:
     resolution: {integrity: sha512-GDMgj3zhQ3g6Ga3yWBSmdJC7mM8UePgHiZsVQZ8sUWgAk2UzRyGlFV5qdv0topv63vE86KaK6MmAbjVUVibOzA==}
     engines: {node: '>=12.0.0'}
     dependencies:
-      sharp: 0.32.5
+      sharp: 0.32.6
     dev: true
 
   /import-fresh@3.3.0:
@@ -5192,8 +5192,8 @@ packages:
     resolution: {integrity: sha512-JvdAWfbXeIGaZ9cILp38HntZSFSo3mWg6xGcJJsd+d4aRMOqauag1C63dJfDw7OaMYwEbHMOxEZ1lqVRYP2OAw==}
     dev: true
 
-  /sharp@0.32.5:
-    resolution: {integrity: sha512-0dap3iysgDkNaPOaOL4X/0akdu0ma62GcdC2NBQ+93eqpePdDdr2/LM0sFdDSMmN7yS+odyZtPsb7tx/cYBKnQ==}
+  /sharp@0.32.6:
+    resolution: {integrity: sha512-KyLTWwgcR9Oe4d9HwCwNM2l7+J0dUQwn/yf7S0EnTtb0eVS4RxO0eUSvxPtzT4F3SY+C4K6fqdv/DO27sJ/v/w==}
     engines: {node: '>=14.15.0'}
     requiresBuild: true
     dependencies:
