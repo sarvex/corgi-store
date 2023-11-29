@@ -42,7 +42,7 @@
     "undici": "5.28.1",
     "unplugin-fonts": "1.1.1",
     "vercel": "32.5.6",
-    "vite": "5.0.3",
+    "vite": "5.0.4",
     "vite-tsconfig-paths": "4.2.1"
   },
   "dependencies": {
