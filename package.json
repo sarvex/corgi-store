@@ -26,11 +26,11 @@
     "@builder.io/partytown": "0.8.1",
     "@builder.io/qwik": "1.2.19",
     "@builder.io/qwik-city": "1.2.19",
-    "@playwright/test": "1.40.0",
+    "@playwright/test": "1.40.1",
     "@types/eslint": "8.44.7",
     "@types/node": "20.10.0",
-    "@typescript-eslint/eslint-plugin": "6.13.0",
-    "@typescript-eslint/parser": "6.13.0",
+    "@typescript-eslint/eslint-plugin": "6.13.1",
+    "@typescript-eslint/parser": "6.13.1",
     "autoprefixer": "10.4.16",
     "eslint": "8.54.0",
     "eslint-plugin-qwik": "1.2.19",
@@ -42,7 +42,7 @@
     "undici": "5.28.1",
     "unplugin-fonts": "1.1.1",
     "vercel": "32.5.6",
-    "vite": "5.0.2",
+    "vite": "5.0.3",
     "vite-tsconfig-paths": "4.2.1"
   },
   "dependencies": {
