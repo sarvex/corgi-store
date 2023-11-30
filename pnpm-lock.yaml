@@ -15,7 +15,7 @@ devDependencies:
     version: 0.8.1
   '@builder.io/qwik':
     specifier: 1.2.19
-    version: 1.2.19(@types/node@20.10.1)(undici@5.28.1)
+    version: 1.2.19(@types/node@20.10.1)(undici@5.28.2)
   '@builder.io/qwik-city':
     specifier: 1.2.19
     version: 1.2.19(@types/node@20.10.1)
@@ -59,8 +59,8 @@ devDependencies:
     specifier: 5.3.2
     version: 5.3.2
   undici:
-    specifier: 5.28.1
-    version: 5.28.1
+    specifier: 5.28.2
+    version: 5.28.2
   unplugin-fonts:
     specifier: 1.1.1
     version: 1.1.1(vite@5.0.4)
@@ -100,7 +100,7 @@ packages:
       '@types/mdx': 2.0.9
       source-map: 0.7.4
       svgo: 3.0.2
-      undici: 5.28.1
+      undici: 5.28.2
       vfile: 6.0.1
       vite: 4.5.0(@types/node@20.10.1)
       vite-imagetools: 5.1.2
@@ -117,7 +117,7 @@ packages:
       - terser
     dev: true
 
-  /@builder.io/qwik@1.2.19(@types/node@20.10.1)(undici@5.28.1):
+  /@builder.io/qwik@1.2.19(@types/node@20.10.1)(undici@5.28.2):
     resolution: {integrity: sha512-nmext30MPih1vSgsNpdx2jzBbeBKpsWjsLFI0Shs9+ec3z2QUrE9NJO+2P7cduxNt87hyul+twJ3UlJJ6pKxUQ==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     hasBin: true
@@ -125,7 +125,7 @@ packages:
       undici: ^5.14.0
     dependencies:
       csstype: 3.1.2
-      undici: 5.28.1
+      undici: 5.28.2
       vite: 4.5.0(@types/node@20.10.1)
     transitivePeerDependencies:
       - '@types/node'
@@ -5681,8 +5681,8 @@ packages:
       '@fastify/busboy': 2.0.0
     dev: true
 
-  /undici@5.28.1:
-    resolution: {integrity: sha512-xcIIvj1LOQH9zAL54iWFkuDEaIVEjLrru7qRpa3GrEEHk6OBhb/LycuUY2m7VCcTuDeLziXCxobQVyKExyGeIA==}
+  /undici@5.28.2:
+    resolution: {integrity: sha512-wh1pHJHnUeQV5Xa8/kyQhO7WFa8M34l026L5P/+2TYiakvGy5Rdc8jWZVyG7ieht/0WgJLEd3kcU5gKx+6GC8w==}
     engines: {node: '>=14.0'}
     dependencies:
       '@fastify/busboy': 2.0.0
