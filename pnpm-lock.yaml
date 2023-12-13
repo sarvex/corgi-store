@@ -65,8 +65,8 @@ devDependencies:
     specifier: 1.1.1
     version: 1.1.1(vite@5.0.8)
   vercel:
-    specifier: 32.7.1
-    version: 32.7.1
+    specifier: 32.7.2
+    version: 32.7.2
   vite:
     specifier: 5.0.8
     version: 5.0.8(@types/node@20.10.4)
@@ -5652,8 +5652,8 @@ packages:
     resolution: {integrity: sha512-wa7YjyUGfNZngI/vtK0UHAN+lgDCxBPCylVXGp0zu59Fz5aiGtNXaq3DhIov063MorB+VfufLh3JlF2KdTK3xg==}
     dev: true
 
-  /vercel@32.7.1:
-    resolution: {integrity: sha512-GGKZxQX1an8UxwRuAcsnGQuPm7/gNYIuhnepqKnOJ2NuyrgJ0Ve1WE66mk0F5QqQ84ZAk88O8aXMTBVVPwkmmA==}
+  /vercel@32.7.2:
+    resolution: {integrity: sha512-esyeo67OZ/f7usKFCrx6NSjsvpo/BP/C8Mfron2uiCb4vXVcjkwOM7TwliHx6b0DbXjpzomdGVUHKRs34VNn2Q==}
     engines: {node: '>= 16'}
     hasBin: true
     dependencies:
