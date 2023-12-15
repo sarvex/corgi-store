@@ -14,11 +14,11 @@ devDependencies:
     specifier: 0.8.1
     version: 0.8.1
   '@builder.io/qwik':
-    specifier: 1.3.0
-    version: 1.3.0(@types/node@20.10.4)(undici@6.0.1)
+    specifier: 1.3.1
+    version: 1.3.1(@types/node@20.10.4)(undici@6.0.1)
   '@builder.io/qwik-city':
-    specifier: 1.3.0
-    version: 1.3.0(@types/node@20.10.4)
+    specifier: 1.3.1
+    version: 1.3.1(@types/node@20.10.4)
   '@playwright/test':
     specifier: 1.40.1
     version: 1.40.1
@@ -41,8 +41,8 @@ devDependencies:
     specifier: 8.55.0
     version: 8.55.0
   eslint-plugin-qwik:
-    specifier: 1.3.0
-    version: 1.3.0(eslint@8.55.0)
+    specifier: 1.3.1
+    version: 1.3.1(eslint@8.55.0)
   postcss:
     specifier: 8.4.32
     version: 8.4.32
@@ -63,16 +63,16 @@ devDependencies:
     version: 6.0.1
   unplugin-fonts:
     specifier: 1.1.1
-    version: 1.1.1(vite@5.0.9)
+    version: 1.1.1(vite@5.0.10)
   vercel:
     specifier: 32.7.2
     version: 32.7.2
   vite:
-    specifier: 5.0.9
-    version: 5.0.9(@types/node@20.10.4)
+    specifier: 5.0.10
+    version: 5.0.10(@types/node@20.10.4)
   vite-tsconfig-paths:
     specifier: 4.2.2
-    version: 4.2.2(typescript@5.3.3)(vite@5.0.9)
+    version: 4.2.2(typescript@5.3.3)(vite@5.0.10)
 
 packages:
 
@@ -92,8 +92,8 @@ packages:
     hasBin: true
     dev: true
 
-  /@builder.io/qwik-city@1.3.0(@types/node@20.10.4):
-    resolution: {integrity: sha512-HG/Hl5M9e9X2DKa6mQhju9ITHMmiKJl4h3imA3cHt6+LK8Kc1F6/PFDn7B3MzDTCOqnSELeMJFD48RHfUiP8vg==}
+  /@builder.io/qwik-city@1.3.1(@types/node@20.10.4):
+    resolution: {integrity: sha512-SPWHXThFwJiTNZCrmMtccdCbXqvQ3tpRtUm39IC2EyUN1L/87qSrgX4/vXUUQ0SWY4u4/Ua8gIByEhkkg+pW/Q==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     dependencies:
       '@mdx-js/mdx': 2.3.0
@@ -102,7 +102,7 @@ packages:
       svgo: 3.0.2
       undici: 5.28.2
       vfile: 6.0.1
-      vite: 5.0.9(@types/node@20.10.4)
+      vite: 5.0.10(@types/node@20.10.4)
       vite-imagetools: 6.2.7
       zod: 3.22.4
     transitivePeerDependencies:
@@ -117,8 +117,8 @@ packages:
       - terser
     dev: true
 
-  /@builder.io/qwik@1.3.0(@types/node@20.10.4)(undici@6.0.1):
-    resolution: {integrity: sha512-EZD6qmkihtM2yFhX22ZCkQLbgL8IeIS572NDoCLRSLeHzO2lm+AACQGwJw5IRXZfDXz/3hm36rzzJRzZdJ6q3g==}
+  /@builder.io/qwik@1.3.1(@types/node@20.10.4)(undici@6.0.1):
+    resolution: {integrity: sha512-XbA/pzLVZJ7HXLApyk1jRVYTwZdHEq3vGcnOi/ZS7GKGvkEWKCRMWIV+5dVJKjBS0jxtYcj07w52HmkPbQiVMw==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     hasBin: true
     peerDependencies:
@@ -126,7 +126,7 @@ packages:
     dependencies:
       csstype: 3.1.2
       undici: 6.0.1
-      vite: 5.0.9(@types/node@20.10.4)
+      vite: 5.0.10(@types/node@20.10.4)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -2659,8 +2659,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /eslint-plugin-qwik@1.3.0(eslint@8.55.0):
-    resolution: {integrity: sha512-m+NKC534QfRUrnzob4iG+vyJDYsNVT9bP7bTMT9U3FNY92YodMop4ryTOpt4Ja3XL/+6V2UTd3B/VnVRNCwKsA==}
+  /eslint-plugin-qwik@1.3.1(eslint@8.55.0):
+    resolution: {integrity: sha512-GbB2Wos1/oaIh9R1FBqUxz5CjFgTzf8dS/LCbS5FOTR5xld//1o8lxTI8i3pNZeov2QxqgbvbJwyhrf7iewPcA==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     peerDependencies:
       eslint: ^8.45.0
@@ -5576,7 +5576,7 @@ packages:
     engines: {node: '>= 0.8'}
     dev: true
 
-  /unplugin-fonts@1.1.1(vite@5.0.9):
+  /unplugin-fonts@1.1.1(vite@5.0.10):
     resolution: {integrity: sha512-/Aw/rL9D2aslGGM0vi+2R2aG508RSwawLnnBuo+JDSqYc4cHJO1R1phllhN6GysEhBp/6a4B6+vSFPVapWyAAw==}
     peerDependencies:
       '@nuxt/kit': ^3.0.0
@@ -5587,7 +5587,7 @@ packages:
     dependencies:
       fast-glob: 3.3.1
       unplugin: 1.3.1
-      vite: 5.0.9(@types/node@20.10.4)
+      vite: 5.0.10(@types/node@20.10.4)
     dev: true
 
   /unplugin@1.3.1:
@@ -5717,7 +5717,7 @@ packages:
       - rollup
     dev: true
 
-  /vite-tsconfig-paths@4.2.2(typescript@5.3.3)(vite@5.0.9):
+  /vite-tsconfig-paths@4.2.2(typescript@5.3.3)(vite@5.0.10):
     resolution: {integrity: sha512-dq0FjyxHHDnp0uS3P12WEOX2W7NeuLzX9AWP38D7Zw2CTbFErapwQVlCiT5DMJcVWKQ1MMdTe92PZl/rBQ7qcw==}
     peerDependencies:
       vite: '*'
@@ -5728,14 +5728,14 @@ packages:
       debug: 4.3.4
       globrex: 0.1.2
       tsconfck: 2.1.1(typescript@5.3.3)
-      vite: 5.0.9(@types/node@20.10.4)
+      vite: 5.0.10(@types/node@20.10.4)
     transitivePeerDependencies:
       - supports-color
       - typescript
     dev: true
 
-  /vite@5.0.9(@types/node@20.10.4):
-    resolution: {integrity: sha512-wVqMd5kp28QWGgfYPDfrj771VyHTJ4UDlCteLH7bJDGDEamaz5hV8IX6h1brSGgnnyf9lI2RnzXq/JmD0c2wwg==}
+  /vite@5.0.10(@types/node@20.10.4):
+    resolution: {integrity: sha512-2P8J7WWgmc355HUMlFrwofacvr98DAjoE52BfdbwQtyLH06XKwaL/FMnmKM2crF0iX4MpmMKoDlNCB1ok7zHCw==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
