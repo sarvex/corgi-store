@@ -43,7 +43,7 @@
     "unplugin-fonts": "1.1.1",
     "vercel": "33.0.1",
     "vite": "5.0.10",
-    "vite-tsconfig-paths": "4.2.2"
+    "vite-tsconfig-paths": "4.2.3"
   },
   "dependencies": {
     "qwik-image": "0.0.8"
