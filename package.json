@@ -26,7 +26,7 @@
     "@builder.io/partytown": "0.8.2",
     "@builder.io/qwik": "1.4.0",
     "@builder.io/qwik-city": "1.4.0",
-    "@playwright/test": "1.41.0",
+    "@playwright/test": "1.41.1",
     "@types/eslint": "8.56.2",
     "@types/node": "20.11.5",
     "@typescript-eslint/eslint-plugin": "6.19.0",
