@@ -24,8 +24,8 @@
   },
   "devDependencies": {
     "@builder.io/partytown": "0.9.1",
-    "@builder.io/qwik": "1.4.4",
-    "@builder.io/qwik-city": "1.4.4",
+    "@builder.io/qwik": "1.4.5",
+    "@builder.io/qwik-city": "1.4.5",
     "@playwright/test": "1.41.2",
     "@types/eslint": "8.56.2",
     "@types/node": "20.11.17",
@@ -33,7 +33,7 @@
     "@typescript-eslint/parser": "7.0.1",
     "autoprefixer": "10.4.17",
     "eslint": "8.56.0",
-    "eslint-plugin-qwik": "1.4.4",
+    "eslint-plugin-qwik": "1.4.5",
     "postcss": "8.4.35",
     "postcss-preset-env": "9.3.0",
     "prettier": "3.2.5",
@@ -41,7 +41,7 @@
     "typescript": "5.3.3",
     "undici": "6.6.2",
     "unplugin-fonts": "1.1.1",
-    "vercel": "33.5.0",
+    "vercel": "33.5.1",
     "vite": "5.1.1",
     "vite-tsconfig-paths": "4.3.1"
   },
