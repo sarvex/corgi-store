@@ -28,7 +28,7 @@
     "@builder.io/qwik-city": "1.4.5",
     "@playwright/test": "1.42.0",
     "@types/eslint": "8.56.4",
-    "@types/node": "20.11.21",
+    "@types/node": "20.11.22",
     "@typescript-eslint/eslint-plugin": "7.1.0",
     "@typescript-eslint/parser": "7.1.0",
     "autoprefixer": "10.4.17",
@@ -41,7 +41,7 @@
     "typescript": "5.3.3",
     "undici": "6.6.2",
     "unplugin-fonts": "1.1.1",
-    "vercel": "33.5.2",
+    "vercel": "33.5.3",
     "vite": "5.1.4",
     "vite-tsconfig-paths": "4.3.1"
   },
