@@ -23,7 +23,7 @@
     "qwik": "qwik"
   },
   "devDependencies": {
-    "@builder.io/partytown": "0.10.0",
+    "@builder.io/partytown": "0.10.1",
     "@builder.io/qwik": "1.5.1",
     "@builder.io/qwik-city": "1.5.1",
     "@playwright/test": "1.42.1",
@@ -42,7 +42,7 @@
     "undici": "6.10.1",
     "unplugin-fonts": "1.1.1",
     "vercel": "33.6.1",
-    "vite": "5.2.4",
+    "vite": "5.2.6",
     "vite-tsconfig-paths": "4.3.2"
   },
   "dependencies": {
