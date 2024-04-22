@@ -17,7 +17,7 @@ importers:
         version: 0.10.1
       '@builder.io/qwik':
         specifier: 1.5.2
-        version: 1.5.2(@types/node@20.12.7)(undici@6.13.0)
+        version: 1.5.2(@types/node@20.12.7)(undici@6.14.0)
       '@builder.io/qwik-city':
         specifier: 1.5.2
         version: 1.5.2(@types/node@20.12.7)(rollup@4.13.0)
@@ -61,8 +61,8 @@ importers:
         specifier: 5.4.5
         version: 5.4.5
       undici:
-        specifier: 6.13.0
-        version: 6.13.0
+        specifier: 6.14.0
+        version: 6.14.0
       unplugin-fonts:
         specifier: 1.1.1
         version: 1.1.1(vite@5.2.10(@types/node@20.12.7))
@@ -2952,9 +2952,9 @@ packages:
     resolution: {integrity: sha512-cSb4bPFd5qgR7qr2jYAi0hlX9n5YKK2ONKkLFkxl+v/9BvC0sOpZjBHDBSXc5lWAf5ty9oZdRXytBIHzgUcerw==}
     engines: {node: '>=14.0'}
 
-  undici@6.13.0:
-    resolution: {integrity: sha512-Q2rtqmZWrbP8nePMq7mOJIN98M0fYvSgV89vwl/BQRT4mDOeY2GXZngfGpcBBhtky3woM7G24wZV3Q304Bv6cw==}
-    engines: {node: '>=18.0'}
+  undici@6.14.0:
+    resolution: {integrity: sha512-esJ/x2QU5boTG6thdA0o4qP3cv/oPx9mcQGcp8TAHI+ZBTa0EvM9Jiyp0ILdPGLGxs5HATTKrJqAK+YhrSFicg==}
+    engines: {node: '>=18.17'}
 
   unified@11.0.4:
     resolution: {integrity: sha512-apMPnyLjAX+ty4OrNap7yumyVAMlKx5IWU2wlzzUdYJO9A8f1p9m/gywF/GM2ZDFcjQPrx59Mc90KwmxsoklxQ==}
@@ -3166,7 +3166,7 @@ snapshots:
       '@types/mdx': 2.0.11
       source-map: 0.7.4
       svgo: 3.2.0
-      undici: 6.13.0
+      undici: 6.14.0
       vfile: 6.0.1
       vite: 5.2.10(@types/node@20.12.7)
       vite-imagetools: 6.2.9(rollup@4.13.0)
@@ -3182,10 +3182,10 @@ snapshots:
       - supports-color
       - terser
 
-  '@builder.io/qwik@1.5.2(@types/node@20.12.7)(undici@6.13.0)':
+  '@builder.io/qwik@1.5.2(@types/node@20.12.7)(undici@6.14.0)':
     dependencies:
       csstype: 3.1.3
-      undici: 6.13.0
+      undici: 6.14.0
       vite: 5.2.10(@types/node@20.12.7)
     transitivePeerDependencies:
       - '@types/node'
@@ -6427,7 +6427,7 @@ snapshots:
     dependencies:
       '@fastify/busboy': 2.0.0
 
-  undici@6.13.0: {}
+  undici@6.14.0: {}
 
   unified@11.0.4:
     dependencies:
