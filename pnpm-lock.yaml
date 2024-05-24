@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       qwik-image:
-        specifier: 0.0.10
-        version: 0.0.10
+        specifier: 0.0.13
+        version: 0.0.13
     devDependencies:
       '@builder.io/partytown':
         specifier: 0.10.2
@@ -67,8 +67,8 @@ importers:
         specifier: 1.1.1
         version: 1.1.1(vite@5.2.11(@types/node@20.12.12))
       vercel:
-        specifier: 34.2.2
-        version: 34.2.2
+        specifier: 34.2.3
+        version: 34.2.3
       vite:
         specifier: 5.2.11
         version: 5.2.11(@types/node@20.12.12)
@@ -932,8 +932,8 @@ packages:
   '@vercel/hydrogen@1.0.2':
     resolution: {integrity: sha512-/Q2MKk1GfOuZAnkE9jQexjtUQqanbY65R+xtJWd9yKIgwcfRI1hxiNH3uXyVM5AvLoY+fxxULkSuxDtUKpkJpQ==}
 
-  '@vercel/next@4.2.13':
-    resolution: {integrity: sha512-DMOPezCeKb6r4hJ9WM4FO+7FGNwNgCF6RHoVZe5FmHI3C8mvzQqzPgausvXQq33l1YR5t81xDZpJRqprYEsIgg==}
+  '@vercel/next@4.2.14':
+    resolution: {integrity: sha512-CBeaXIGS7mOgFSH429HRjIOxJBbtiQW6gf1mz/rIQoNcZjSxhfe+nMAxfkDlXAzCsGQVFbzVR9omnijTFbC79w==}
 
   '@vercel/nft@0.27.0':
     resolution: {integrity: sha512-W5pValyhToK9hbgEUAM6sLRUIl1I++RsFnXKHXtND50P1+vZ+OYPCzq1OOz0Ok6ghK6aOwae8G/rEAXkLedC+w==}
@@ -2632,8 +2632,8 @@ packages:
   queue-microtask@1.2.3:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
 
-  qwik-image@0.0.10:
-    resolution: {integrity: sha512-+X+EEdFzt5gl48Und3oPf34PLuIl0TKT959/zTQjboL1aYjMX1+1HAvE2OllUclyk8Pf0TFgDRN/YyYORc8mfA==}
+  qwik-image@0.0.13:
+    resolution: {integrity: sha512-NvKosbW3Q2dgM/1l7Ya3P82SBTcG8jr0yHzPrAMNE6cmmpIb61onCFWT8JXvSShrcmCOQ1pNg3rzR1Y3RsWCrg==}
 
   raw-body@2.4.1:
     resolution: {integrity: sha512-9WmIKF6mkvA0SLmA2Knm9+qj89e+j1zqgyn8aXGd7+nAduPoqgI9lO57SAZNn/Byzo5P7JhXTyg9PzaJbH73bA==}
@@ -3029,8 +3029,8 @@ packages:
   v8-compile-cache-lib@3.0.1:
     resolution: {integrity: sha512-wa7YjyUGfNZngI/vtK0UHAN+lgDCxBPCylVXGp0zu59Fz5aiGtNXaq3DhIov063MorB+VfufLh3JlF2KdTK3xg==}
 
-  vercel@34.2.2:
-    resolution: {integrity: sha512-8JGdsyJ7kxbmp74fqgD+lIP7/gPs51aYoISdckgvopKUsWUBkYe0HzoFvutW6L3ODHmSOoNVXaOmqUjOMtPMHQ==}
+  vercel@34.2.3:
+    resolution: {integrity: sha512-54Uo4TyOAunhsOGOTBPsCZBBAY5Fku1AVYh8oPGFGSe0aF7lP67nqmX/bJ/jL9A0KqW3hPdIV+LcOuiMFRm/ig==}
     engines: {node: '>= 16'}
     hasBin: true
 
@@ -3973,7 +3973,7 @@ snapshots:
       '@vercel/static-config': 3.0.0
       ts-morph: 12.0.0
 
-  '@vercel/next@4.2.13':
+  '@vercel/next@4.2.14':
     dependencies:
       '@vercel/nft': 0.27.0
     transitivePeerDependencies:
@@ -6009,7 +6009,7 @@ snapshots:
 
   queue-microtask@1.2.3: {}
 
-  qwik-image@0.0.10: {}
+  qwik-image@0.0.13: {}
 
   raw-body@2.4.1:
     dependencies:
@@ -6513,13 +6513,13 @@ snapshots:
 
   v8-compile-cache-lib@3.0.1: {}
 
-  vercel@34.2.2:
+  vercel@34.2.3:
     dependencies:
       '@vercel/build-utils': 8.2.0
       '@vercel/fun': 1.1.0
       '@vercel/go': 3.1.1
       '@vercel/hydrogen': 1.0.2
-      '@vercel/next': 4.2.13
+      '@vercel/next': 4.2.14
       '@vercel/node': 3.1.5
       '@vercel/python': 4.2.0
       '@vercel/redwood': 2.0.9
