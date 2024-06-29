@@ -19,8 +19,8 @@ importers:
         specifier: 1.6.0
         version: 1.6.0(@types/node@20.14.9)(undici@6.19.2)
       '@builder.io/qwik-city':
-        specifier: 1.5.7
-        version: 1.5.7(@types/node@20.14.9)(rollup@4.13.0)
+        specifier: 1.6.0
+        version: 1.6.0(@types/node@20.14.9)(rollup@4.13.0)
       '@playwright/test':
         specifier: 1.45.0
         version: 1.45.0
@@ -91,8 +91,8 @@ packages:
     engines: {node: '>=18.0.0'}
     hasBin: true
 
-  '@builder.io/qwik-city@1.5.7':
-    resolution: {integrity: sha512-2b1gr4IQu+AgL9q20RwbtTGtzzMctTMC1Aly61B7B+g5/UYYN4KHapoRaS+3NXrsDT+ahF09vfoDIxHzmuHtAA==}
+  '@builder.io/qwik-city@1.6.0':
+    resolution: {integrity: sha512-XulIdmrPkdIA8yatRolyWtyVsmKB/CsamOb3loOaLc4ptHt5NMJiGCiS9axlyaqpAuy2LjZqb7S0ATACkjeK5w==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
 
   '@builder.io/qwik@1.6.0':
@@ -3169,7 +3169,7 @@ snapshots:
 
   '@builder.io/partytown@0.10.2': {}
 
-  '@builder.io/qwik-city@1.5.7(@types/node@20.14.9)(rollup@4.13.0)':
+  '@builder.io/qwik-city@1.6.0(@types/node@20.14.9)(rollup@4.13.0)':
     dependencies:
       '@mdx-js/mdx': 3.0.1
       '@types/mdx': 2.0.13
