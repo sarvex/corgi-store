@@ -43,8 +43,8 @@ importers:
         specifier: 9.10.0
         version: 9.10.0(jiti@1.21.0)
       eslint-plugin-qwik:
-        specifier: 1.8.0
-        version: 1.8.0(eslint@9.10.0(jiti@1.21.0))
+        specifier: 1.9.0
+        version: 1.9.0(eslint@9.10.0(jiti@1.21.0))
       postcss:
         specifier: 8.4.47
         version: 8.4.47
@@ -1538,8 +1538,8 @@ packages:
     resolution: {integrity: sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==}
     engines: {node: '>=10'}
 
-  eslint-plugin-qwik@1.8.0:
-    resolution: {integrity: sha512-WcyWSnmPbi4OX3nNxsKROu3F6MhP19CHAOVmGihWEJihbA6WWW6X8RB1jNROLqVg75RIZRH6kg3KzfdwesfW/g==}
+  eslint-plugin-qwik@1.9.0:
+    resolution: {integrity: sha512-9EsvIVwtpANSj/ICKMoR5aeabDPgPVcW58bxY8N7R/9oQs6piCm7XbFErxAeaGxmhuvpMZsc+7AN5DizDfDdrw==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     peerDependencies:
       eslint: ^8.57.0
@@ -4655,7 +4655,7 @@ snapshots:
 
   escape-string-regexp@4.0.0: {}
 
-  eslint-plugin-qwik@1.8.0(eslint@9.10.0(jiti@1.21.0)):
+  eslint-plugin-qwik@1.9.0(eslint@9.10.0(jiti@1.21.0)):
     dependencies:
       eslint: 9.10.0(jiti@1.21.0)
       jsx-ast-utils: 3.3.5
