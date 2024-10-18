@@ -67,8 +67,8 @@ importers:
         specifier: 1.1.1
         version: 1.1.1(vite@5.4.9(@types/node@20.16.12))
       vercel:
-        specifier: 37.9.0
-        version: 37.9.0
+        specifier: 37.11.0
+        version: 37.11.0
       vite:
         specifier: 5.4.9
         version: 5.4.9(@types/node@20.16.12)
@@ -3064,8 +3064,8 @@ packages:
       typescript:
         optional: true
 
-  vercel@37.9.0:
-    resolution: {integrity: sha512-uAayU4fnLqBdxyKay4xhcQVPspUYJeAGRGwTTtKgjjIbe474gONmaEFx644XfnpPQSSqHsIcu4iKnNnRI3NXgQ==}
+  vercel@37.11.0:
+    resolution: {integrity: sha512-LCTKg4zxfHFBYULLcIEEi9CxFnywd0y0cUd23wdajqBKSBcEqrR2z77v0uU1G5dzlvqmL7dpAHXYu55jNU1GeA==}
     engines: {node: '>= 16'}
     hasBin: true
 
@@ -6579,7 +6579,7 @@ snapshots:
     optionalDependencies:
       typescript: 5.6.3
 
-  vercel@37.9.0:
+  vercel@37.11.0:
     dependencies:
       '@vercel/build-utils': 8.4.11
       '@vercel/fun': 1.1.0
