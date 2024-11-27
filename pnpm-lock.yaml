@@ -61,8 +61,8 @@ importers:
         specifier: 5.7.2
         version: 5.7.2
       undici:
-        specifier: 6.21.0
-        version: 6.21.0
+        specifier: 7.0.0
+        version: 7.0.0
       unplugin-fonts:
         specifier: 1.1.1
         version: 1.1.1(vite@6.0.1(@types/node@22.10.0)(jiti@1.21.6)(yaml@2.6.0))
@@ -3128,9 +3128,9 @@ packages:
     resolution: {integrity: sha512-72RFADWFqKmUb2hmmvNODKL3p9hcB6Gt2DOQMis1SEBaV6a4MH8soBvzg+95CYhCKPFedut2JY9bMfrDl9D23g==}
     engines: {node: '>=14.0'}
 
-  undici@6.21.0:
-    resolution: {integrity: sha512-BUgJXc752Kou3oOIuU1i+yZZypyZRqNPW0vqoMPl8VaoalSfeR0D8/t4iAS3yirs79SSMTxTag+ZC86uswv+Cw==}
-    engines: {node: '>=18.17'}
+  undici@7.0.0:
+    resolution: {integrity: sha512-c4xi3kWnQJrb7h2q8aJYKvUzmz7boCgz1cUCC6OwdeM5Tr2P0hDuthr2iut4ggqsz+Cnh20U/LoTzbKIdDS/Nw==}
+    engines: {node: '>=20.18.1'}
 
   unified@11.0.4:
     resolution: {integrity: sha512-apMPnyLjAX+ty4OrNap7yumyVAMlKx5IWU2wlzzUdYJO9A8f1p9m/gywF/GM2ZDFcjQPrx59Mc90KwmxsoklxQ==}
@@ -3371,7 +3371,7 @@ snapshots:
       '@types/mdx': 2.0.13
       source-map: 0.7.4
       svgo: 3.3.2
-      undici: 6.21.0
+      undici: 7.0.0
       valibot: 0.42.0(typescript@5.7.2)
       vfile: 6.0.2
       vite: 6.0.1(@types/node@22.10.0)(jiti@1.21.6)(yaml@2.6.0)
@@ -6787,7 +6787,7 @@ snapshots:
     dependencies:
       '@fastify/busboy': 2.0.0
 
-  undici@6.21.0: {}
+  undici@7.0.0: {}
 
   unified@11.0.4:
     dependencies:
