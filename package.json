@@ -28,7 +28,7 @@
     "@builder.io/qwik-city": "1.12.1",
     "@playwright/test": "1.51.1",
     "@types/eslint": "9.6.1",
-    "@types/node": "22.13.11",
+    "@types/node": "22.13.13",
     "@typescript-eslint/eslint-plugin": "8.27.0",
     "@typescript-eslint/parser": "8.27.0",
     "autoprefixer": "10.4.21",
