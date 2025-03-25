@@ -17,10 +17,10 @@ importers:
         version: 0.10.3
       '@builder.io/qwik':
         specifier: 1.12.1
-        version: 1.12.1(vite@6.2.2(@types/node@22.13.11)(jiti@1.21.6)(yaml@2.6.0))
+        version: 1.12.1(vite@6.2.3(@types/node@22.13.13)(jiti@1.21.6)(yaml@2.6.0))
       '@builder.io/qwik-city':
         specifier: 1.12.1
-        version: 1.12.1(rollup@4.34.3)(typescript@5.8.2)(vite@6.2.2(@types/node@22.13.11)(jiti@1.21.6)(yaml@2.6.0))
+        version: 1.12.1(rollup@4.34.3)(typescript@5.8.2)(vite@6.2.3(@types/node@22.13.13)(jiti@1.21.6)(yaml@2.6.0))
       '@playwright/test':
         specifier: 1.51.1
         version: 1.51.1
@@ -28,8 +28,8 @@ importers:
         specifier: 9.6.1
         version: 9.6.1
       '@types/node':
-        specifier: 22.13.11
-        version: 22.13.11
+        specifier: 22.13.13
+        version: 22.13.13
       '@typescript-eslint/eslint-plugin':
         specifier: 8.27.0
         version: 8.27.0(@typescript-eslint/parser@8.27.0(eslint@9.23.0(jiti@1.21.6))(typescript@5.8.2))(eslint@9.23.0(jiti@1.21.6))(typescript@5.8.2)
@@ -65,16 +65,16 @@ importers:
         version: 7.5.0
       unplugin-fonts:
         specifier: 1.3.1
-        version: 1.3.1(vite@6.2.2(@types/node@22.13.11)(jiti@1.21.6)(yaml@2.6.0))
+        version: 1.3.1(vite@6.2.3(@types/node@22.13.13)(jiti@1.21.6)(yaml@2.6.0))
       vercel:
         specifier: 41.4.1
         version: 41.4.1(rollup@4.34.3)
       vite:
-        specifier: 6.2.2
-        version: 6.2.2(@types/node@22.13.11)(jiti@1.21.6)(yaml@2.6.0)
+        specifier: 6.2.3
+        version: 6.2.3(@types/node@22.13.13)(jiti@1.21.6)(yaml@2.6.0)
       vite-tsconfig-paths:
         specifier: 5.1.4
-        version: 5.1.4(typescript@5.8.2)(vite@6.2.2(@types/node@22.13.11)(jiti@1.21.6)(yaml@2.6.0))
+        version: 5.1.4(typescript@5.8.2)(vite@6.2.3(@types/node@22.13.13)(jiti@1.21.6)(yaml@2.6.0))
 
 packages:
 
@@ -917,8 +917,8 @@ packages:
   '@types/node@16.18.11':
     resolution: {integrity: sha512-3oJbGBUWuS6ahSnEq1eN2XrCyf4YsWI8OyCvo7c64zQJNplk3mO84t53o8lfTk+2ji59g5ycfc6qQ3fdHliHuA==}
 
-  '@types/node@22.13.11':
-    resolution: {integrity: sha512-iEUCUJoU0i3VnrCmgoWCXttklWcvoCIx4jzcP22fioIVSdTmjgoEvmAO/QPw6TcS9k5FrNgn4w7q5lGOd1CT5g==}
+  '@types/node@22.13.13':
+    resolution: {integrity: sha512-ClsL5nMwKaBRwPcCvH8E7+nU4GxHVx1axNvMZTFHMEfNI7oahimt26P5zjVCRrjiIWj6YFXfE1v3dEp94wLcGQ==}
 
   '@types/unist@2.0.6':
     resolution: {integrity: sha512-PBjIUxZHOuj0R15/xuwJYjFi+KZdNFrehocChv4g5hu6aFroHue8m0lBP0POdK2nKzbw0cgV1mws8+V/JAcEkQ==}
@@ -2923,8 +2923,8 @@ packages:
       vite:
         optional: true
 
-  vite@6.2.2:
-    resolution: {integrity: sha512-yW7PeMM+LkDzc7CgJuRLMW2Jz0FxMOsVJ8Lv3gpgW9WLcb9cTW+121UEr1hvmfR7w3SegR5ItvYyzVz1vxNJgQ==}
+  vite@6.2.3:
+    resolution: {integrity: sha512-IzwM54g4y9JA/xAeBPNaDXiBF8Jsgl3VBQ2YQ/wOY6fyW3xMdSoltIV3Bo59DErdqdE6RxUfv8W69DvUorE4Eg==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
     peerDependencies:
@@ -3049,7 +3049,7 @@ snapshots:
 
   '@builder.io/partytown@0.10.3': {}
 
-  '@builder.io/qwik-city@1.12.1(rollup@4.34.3)(typescript@5.8.2)(vite@6.2.2(@types/node@22.13.11)(jiti@1.21.6)(yaml@2.6.0))':
+  '@builder.io/qwik-city@1.12.1(rollup@4.34.3)(typescript@5.8.2)(vite@6.2.3(@types/node@22.13.13)(jiti@1.21.6)(yaml@2.6.0))':
     dependencies:
       '@mdx-js/mdx': 3.0.1
       '@types/mdx': 2.0.13
@@ -3058,7 +3058,7 @@ snapshots:
       undici: 7.5.0
       valibot: 0.42.0(typescript@5.8.2)
       vfile: 6.0.2
-      vite: 6.2.2(@types/node@22.13.11)(jiti@1.21.6)(yaml@2.6.0)
+      vite: 6.2.3(@types/node@22.13.13)(jiti@1.21.6)(yaml@2.6.0)
       vite-imagetools: 7.0.4(rollup@4.34.3)
       zod: 3.22.4
     transitivePeerDependencies:
@@ -3066,10 +3066,10 @@ snapshots:
       - supports-color
       - typescript
 
-  '@builder.io/qwik@1.12.1(vite@6.2.2(@types/node@22.13.11)(jiti@1.21.6)(yaml@2.6.0))':
+  '@builder.io/qwik@1.12.1(vite@6.2.3(@types/node@22.13.13)(jiti@1.21.6)(yaml@2.6.0))':
     dependencies:
       csstype: 3.1.3
-      vite: 6.2.2(@types/node@22.13.11)(jiti@1.21.6)(yaml@2.6.0)
+      vite: 6.2.3(@types/node@22.13.13)(jiti@1.21.6)(yaml@2.6.0)
 
   '@cspotcode/source-map-support@0.8.1':
     dependencies:
@@ -3758,7 +3758,7 @@ snapshots:
 
   '@types/node@16.18.11': {}
 
-  '@types/node@22.13.11':
+  '@types/node@22.13.13':
     dependencies:
       undici-types: 6.20.0
 
@@ -6171,11 +6171,11 @@ snapshots:
 
   unpipe@1.0.0: {}
 
-  unplugin-fonts@1.3.1(vite@6.2.2(@types/node@22.13.11)(jiti@1.21.6)(yaml@2.6.0)):
+  unplugin-fonts@1.3.1(vite@6.2.3(@types/node@22.13.13)(jiti@1.21.6)(yaml@2.6.0)):
     dependencies:
       fast-glob: 3.3.2
       unplugin: 2.0.0-beta.1
-      vite: 6.2.2(@types/node@22.13.11)(jiti@1.21.6)(yaml@2.6.0)
+      vite: 6.2.3(@types/node@22.13.13)(jiti@1.21.6)(yaml@2.6.0)
 
   unplugin@2.0.0-beta.1:
     dependencies:
@@ -6243,24 +6243,24 @@ snapshots:
     transitivePeerDependencies:
       - rollup
 
-  vite-tsconfig-paths@5.1.4(typescript@5.8.2)(vite@6.2.2(@types/node@22.13.11)(jiti@1.21.6)(yaml@2.6.0)):
+  vite-tsconfig-paths@5.1.4(typescript@5.8.2)(vite@6.2.3(@types/node@22.13.13)(jiti@1.21.6)(yaml@2.6.0)):
     dependencies:
       debug: 4.3.4
       globrex: 0.1.2
       tsconfck: 3.0.3(typescript@5.8.2)
     optionalDependencies:
-      vite: 6.2.2(@types/node@22.13.11)(jiti@1.21.6)(yaml@2.6.0)
+      vite: 6.2.3(@types/node@22.13.13)(jiti@1.21.6)(yaml@2.6.0)
     transitivePeerDependencies:
       - supports-color
       - typescript
 
-  vite@6.2.2(@types/node@22.13.11)(jiti@1.21.6)(yaml@2.6.0):
+  vite@6.2.3(@types/node@22.13.13)(jiti@1.21.6)(yaml@2.6.0):
     dependencies:
       esbuild: 0.25.0
       postcss: 8.5.3
       rollup: 4.34.3
     optionalDependencies:
-      '@types/node': 22.13.11
+      '@types/node': 22.13.13
       fsevents: 2.3.3
       jiti: 1.21.6
       yaml: 2.6.0
