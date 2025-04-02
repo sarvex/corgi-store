@@ -19,8 +19,8 @@ importers:
         specifier: 1.12.1
         version: 1.12.1(vite@6.2.4(@types/node@22.13.14)(jiti@1.21.6)(yaml@2.6.0))
       '@builder.io/qwik-city':
-        specifier: 1.12.1
-        version: 1.12.1(rollup@4.34.3)(typescript@5.8.2)(vite@6.2.4(@types/node@22.13.14)(jiti@1.21.6)(yaml@2.6.0))
+        specifier: 1.13.0
+        version: 1.13.0(rollup@4.34.3)(typescript@5.8.2)(vite@6.2.4(@types/node@22.13.14)(jiti@1.21.6)(yaml@2.6.0))
       '@playwright/test':
         specifier: 1.51.1
         version: 1.51.1
@@ -87,8 +87,8 @@ packages:
     engines: {node: '>=18.0.0'}
     hasBin: true
 
-  '@builder.io/qwik-city@1.12.1':
-    resolution: {integrity: sha512-YLW+33PZVoc4O30J99Fs3uNNpi7BszPzaITKoW66Sphju5Ptn6HDQkfnBu2sHFB0bh8hWLWatAjOM1HXg/C96Q==}
+  '@builder.io/qwik-city@1.13.0':
+    resolution: {integrity: sha512-CDo5/JBLyJkC8uWn/DO5SnhXzGPLr9ecbAprloQMwoDaYFh846DRXhD+dK1Sqoa84O40+dk3p5Zltf2SkXdV2w==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     peerDependencies:
       vite: ^5
@@ -2639,11 +2639,6 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
 
-  semver@7.6.0:
-    resolution: {integrity: sha512-EnwXhrlwXMk9gKu5/flx5sv/an57AkRplG3hTK68W7FRDN+k+OWBj65M7719OkA82XLBxrcX0KSHj+X5COhOVg==}
-    engines: {node: '>=10'}
-    hasBin: true
-
   semver@7.7.1:
     resolution: {integrity: sha512-hlq8tAfn0m/61p4BVRcPzIGr6LKiMwo4VM6dGi6pt4qcRkmNzTcWq6eCEjEh+qXjkMDvPlOFFSGwQjoEa6gyMA==}
     engines: {node: '>=10'}
@@ -3080,7 +3075,7 @@ snapshots:
 
   '@builder.io/partytown@0.10.3': {}
 
-  '@builder.io/qwik-city@1.12.1(rollup@4.34.3)(typescript@5.8.2)(vite@6.2.4(@types/node@22.13.14)(jiti@1.21.6)(yaml@2.6.0))':
+  '@builder.io/qwik-city@1.13.0(rollup@4.34.3)(typescript@5.8.2)(vite@6.2.4(@types/node@22.13.14)(jiti@1.21.6)(yaml@2.6.0))':
     dependencies:
       '@mdx-js/mdx': 3.0.1
       '@types/mdx': 2.0.13
@@ -5933,10 +5928,6 @@ snapshots:
     dependencies:
       lru-cache: 6.0.0
 
-  semver@7.6.0:
-    dependencies:
-      lru-cache: 6.0.0
-
   semver@7.7.1: {}
 
   setprototypeof@1.1.1: {}
@@ -5945,7 +5936,7 @@ snapshots:
     dependencies:
       color: 4.2.3
       detect-libc: 2.0.3
-      semver: 7.6.0
+      semver: 7.7.1
     optionalDependencies:
       '@img/sharp-darwin-arm64': 0.33.4
       '@img/sharp-darwin-x64': 0.33.4
