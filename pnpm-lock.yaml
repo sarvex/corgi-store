@@ -55,8 +55,8 @@ importers:
         specifier: 3.6.2
         version: 3.6.2
       tailwindcss:
-        specifier: 4.0.17
-        version: 4.0.17
+        specifier: 4.1.14
+        version: 4.1.14
       typescript:
         specifier: 5.9.3
         version: 5.9.3
@@ -2914,8 +2914,8 @@ packages:
     engines: {node: '>=14.0.0'}
     hasBin: true
 
-  tailwindcss@4.0.17:
-    resolution: {integrity: sha512-OErSiGzRa6rLiOvaipsDZvLMSpsBZ4ysB4f0VKGXUrjw2jfkJRd6kjRKV2+ZmTCNvwtvgdDam5D7w6WXsdLJZw==}
+  tailwindcss@4.1.14:
+    resolution: {integrity: sha512-b7pCxjGO98LnxVkKjaZSDeNuljC4ueKUddjENJOADtubtdo8llTaJy7HwBMeLNSSo2N5QIAgklslK1+Ir8r6CA==}
 
   tar@6.2.1:
     resolution: {integrity: sha512-DZ4yORTwrbTj/7MZYq2w+/ZFdI6OZ/f9SFHR+71gIVUZhOQPHzVCLpvRnPgyaMpfWxxk/4ONva3GQSyNIKRv6A==}
@@ -6414,7 +6414,7 @@ snapshots:
       csso: 5.0.5
       picocolors: 1.1.1
 
-  tailwindcss@4.0.17: {}
+  tailwindcss@4.1.14: {}
 
   tar@6.2.1:
     dependencies:
